@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "FirstName": "",
+      "LastName": "",
+      "Email": ""
+    },
+    {
+      "firstName": "tes",
+      "lastName": "ts3",
+      "email": "ts@gmailcom",
+      "id": 2
+    },
+    {
+      "firstName": "edsonR",
+      "lastName": "Soumay",
+      "email": "Edson25@gmail.com",
+      "id": 3
+    }
+  ]
+}

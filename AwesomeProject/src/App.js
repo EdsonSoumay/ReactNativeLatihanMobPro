@@ -1,12 +1,11 @@
 import React from 'react'
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import Registrasi from './registrasi/index'
-import Userlist from './userList/index'
+import InputData from './inputData/index'
 const App = () => {
   return (
     <ScrollView>
-        <Registrasi/> 
-        <Userlist/>
+        <InputData/>
     </ScrollView>
   )
 }

@@ -3,6 +3,7 @@ import {Text, View, StyleSheet, ScrollView} from 'react-native';
 import TextInput from './textInput/textInput';
 import Button from './button/button'
 import Gap from './gap/gap';
+import axios from 'axios';
 
 const App = () => {
 
@@ -25,7 +26,16 @@ const App = () => {
       address:Address,
       NumberPhone:NumberPhone
     }
-    console.log(data)
+    console.log(data);
+    axios.post('http://10.0.2.2:3004/users', data)
+    .then(res=>{
+      console.log('res:',res );
+      setName('');
+      setUserName('');
+      setEmail('');
+      setAddress('');
+      setPhoneNumber('');
+    })
   }
 
   console.log('render componen')
