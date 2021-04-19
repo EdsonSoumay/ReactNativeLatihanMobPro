@@ -21,17 +21,16 @@ const InputData = () => {
       lastName:lastName,
       email:email,
     }
-    console.log(data);
+
     axios.post('http://10.0.2.2:3004/users', data)
     .then(res=>{
-      console.log('res:',res );
+      console.log('response:',res );
       setFirstName('');
       setLastName('');
       setEmail('');
     })
   }
 
-  console.log('render componen')
   return (
       <ScrollView>
             <View style={styles.container}>

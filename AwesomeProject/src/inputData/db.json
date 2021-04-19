@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstName": "edson",
+      "lastName": "Robert",
+      "email": "ed@yahoo.com",
+      "id": 2
+    },
+    {
+      "firstName": "eds",
+      "lastName": "sfdsdaf",
+      "email": "sfsdf",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "edson",
+      "lastName": "Robert",
+      "email": "ed@yahoo.com",
+      "id": 1
+    },
+    {
+      "firstName": "erwer",
+      "lastName": "werwr",
+      "email": "wrwer",
+      "id": 2
+    },
+    {
+      "firstName": "Edson Robert ",
+      "lastName": "Soumay",
+      "email": "edsonrobertsoumay25@gmail.com",
+      "id": 3
+    },
+    {
+      "firstName": "tes",
+      "lastName": "tes",
+      "email": "tes@gmail.com",
+      "id": 4
+    },
+    {
+      "firstName": "Ed R",
+      "lastName": "Soumay",
+      "email": "Soumay25@gmail.com",
+      "id": 5
+    }
+  ]
+}
